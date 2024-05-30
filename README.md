@@ -21,13 +21,16 @@ Dựa trên kết quả phân tích, đưa ra kết luận về hiệu năng c�
     + Aggregate Report
 
 # Kết quả kiểm tra:
+![CHESSSE!](anh1.png)
+![CHESSSE!](anh2.png)
+![CHESSSE!](anh3.png)
 - Phân tích kết quả kiểm tra:
-- Số lượng yêu cầu thành công: 998/1000 = 99,8%
-- Số lượng yêu cầu thất bại: 2/1000 = 0,2%
-- Thời gian phản hồi trung bình: 40 ms
-- Thời gian phản hồi trung vị: 38 ms
-- Thời gian phản hồi percentil 90: 70 ms
-- Chuyển tải: 16 yêu cầu/giây
+- Số lượng yêu cầu thành công: 98/100 = 98%
+- Số lượng yêu cầu thất bại: 2/100 = 2%
+- Thời gian phản hồi trung bình: 91,02 ms
+- Thời gian phản hồi trung vị: 103,55 ms
+- Thời gian phản hồi percentil 90: 128,41 ms
+- Chuyển tải: 4,3 yêu cầu/giây
 # Kết luận:
-
+Trang web https://phenikaa-uni.edu.vn/vi có hiệu năng khá tốt. Số lượng yêu cầu thành công rất cao (98%), số lượng yêu cầu thất bại thấp (2%). Thời gian phản hồi trung bình, trung vị và percentil 90 đều ở mức thấp (trên dưới 100 ms). Chuyển tải của trang web ở mức trung bình (4,3 yêu cầu/giây).
 # Hình ảnh tổng quát
