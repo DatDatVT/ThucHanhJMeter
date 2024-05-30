@@ -30,9 +30,9 @@
 - Thời gian phản hồi trung bình: 91,02 ms
 - Thời gian phản hồi trung vị: 103,55 ms
 - Thời gian phản hồi percentil 90: 128,41 ms
-- Chuyển tải: 4,3 yêu cầu/giây
+- Chuyển tải:  yêu cầu/giây
 # Kết luận:
-Trang web https://phenikaa-uni.edu.vn/vi có hiệu năng khá tốt. Số lượng yêu cầu thành công rất cao (98%), số lượng yêu cầu thất bại thấp (2%). Thời gian phản hồi trung bình, trung vị và percentil 90 đều ở mức thấp (trên dưới 100 ms). Chuyển tải của trang web ở mức trung bình (4,3 yêu cầu/giây).
+Trang web https://phenikaa-uni.edu.vn/vi có hiệu năng khá tốt. Số lượng yêu cầu thành công rất cao (98%), số lượng yêu cầu thất bại thấp (2%). Thời gian phản hồi trung bình, trung vị và percentil 90 đều ở mức thấp (trên dưới 100 ms). Chuyển tải của trang web ở mức trung bình ( yêu cầu/giây).
 
 
 # Kiểm tra hiệu năng API
@@ -60,11 +60,15 @@ Trang web https://phenikaa-uni.edu.vn/vi có hiệu năng khá tốt. Số lư�
 ![CHESSSE!](anh5.png)
 ![CHESSSE!](anh6.png)
 - Phân tích kết quả kiểm tra:
-- Số lượng yêu cầu thành công: 98/100 = 98%
-- Số lượng yêu cầu thất bại: 2/100 = 2%
-- Thời gian phản hồi trung bình: 91,02 ms
-- Thời gian phản hồi trung vị: 103,55 ms
-- Thời gian phản hồi percentil 90: 128,41 ms
-- Chuyển tải: 4,3 yêu cầu/giây
+- Số lượng yêu cầu thành công: 100/100 = 100%
+- Số lượng yêu cầu thất bại: 0/100 = 2%
+- Thời gian phản hồi trung bình: 29,41 ms
+- Thời gian phản hồi trung vị: 22,72 ms
+- Thời gian phản hồi percentil 90: 38,22 ms
+- Chuyển tải:  yêu cầu/giây
 # Kết luận:
-Trang web https://phenikaa-uni.edu.vn/vi có hiệu năng khá tốt. Số lượng yêu cầu thành công rất cao (98%), số lượng yêu cầu thất bại thấp (2%). Thời gian phản hồi trung bình, trung vị và percentil 90 đều ở mức thấp (trên dưới 100 ms). Chuyển tải của trang web ở mức trung bình (4,3 yêu cầu/giây).
+Trang web https://openweathermap.org/current có hiệu năng tốt. Số lượng yêu cầu thành công rất cao (100%), số lượng yêu cầu thất bại thấp (0%). Thời gian phản hồi trung bình, trung vị và percentil 90 đều ở mức thấp (dưới 100 ms). Chuyển tải của trang web ở mức tốt (4,3 yêu cầu/giây).
+
+# So Sánh :
+
+Với 2 trang web https://phenikaa-uni.edu.vn/vi và https://openweathermap.org/current, https://openweathermap.org/current có hiệu năng tốt hơn khi có thể phản hồi số lượng request lớn hơn, tỉ lệ lỗi nhỏ hơn, thời gian phản hồi nhanh hơn
